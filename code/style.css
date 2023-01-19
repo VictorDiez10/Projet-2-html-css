@@ -1,26 +1,37 @@
 
- * {
+ body 
+ {
    font-family: 'Raleway', sans-serif;
    margin: 0;
-   padding: 0;
  }
+
+ /*Header du site avec le logo Booki et hébergement, activités*/
  .header
  {
   display: flex;
   justify-content: space-between;
  }
- li {
+ li 
+ {
   list-style-type: none;
-  display: flex;
-  justify-content: space-around;
+  padding: 55px;
  }
-
- ul {
+ ul 
+ {
   display: flex;
-  justify-content: space-between;
+  margin: 0;
  }
-
-a{
+ .logo_booki 
+ {
+  margin: 35px;
+}
+a
+{
   text-decoration: none;
   color: #000000;
+}
+a:hover
+{
+  color: #0065FC;
+  border-top: #0065FC solid 3px;
 }
