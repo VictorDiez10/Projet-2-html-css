@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title></title>
+   <title>Booki</title>
+   <link rel="shortcut icon" href="../assets/logo/B.png">
+   <!--Redirection vers le feuille de style CSS-->
    <link rel="stylesheet" type="text/css" href="style.css">
+   <!--Font Google Raleway-->
    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/2166866593.js" crossorigin="anonymous"></script>
+   <!--Logo de Font Awesome-->
+   <script src="https://kit.fontawesome.com/2166866593.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -15,11 +19,40 @@
       <div class="logo_booki">
          <img src="../assets/logo/Booki.png" alt="Logo Booki">
       </div>
-   <ul>
-      <a href="#Hebergements"><li>Hébergements</li></a>
-      <a href="#Activités"><li>Activités</li></a>
-   </ul>
+   <nav>
+      <ul>
+         <a class="heb" href="#Hebergements"><li>Hébergements</li></a>
+         <a class="act" href="#Activités"><li>Activités</li></a>
+      </ul>
+   </nav>
    </div>
   </header>
+
+  <!--Titre-->
+  <div class="Titre">
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <p class="description">En plein centre-ville ou en pleine nature</p>
+   </div>
+
+<!--Fonction de recherche-->
+<section>
+   <div class="barre_de_recherche">
+      <div class="maps">
+         <i class="fa-solid fa-location-dot"></i>
+      </div>
+      <div class="recherche">
+         <form method="get" action="">
+            <p>
+               <input type="text" name="recherche" id="recherche" placeholder="      Marseille, France">
+            </p>
+         </form>
+      </div>
+      
+      <div class="bouton_recherche">
+         <a href="#"><button class="button_recherche">Rechercher</button></a>
+      </div>
+   
+   </div>
+</section>
 </body>
 </html>
