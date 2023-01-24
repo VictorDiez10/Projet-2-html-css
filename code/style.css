@@ -39,7 +39,7 @@ a
   color: #000000;
 }
 
-a:hover
+a li:hover
 {
   color: #0065FC;
   border-top: #0065FC solid 3px;
@@ -117,3 +117,28 @@ a button:hover
 
 /* Filtres */
 
+.differents_filtres
+{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -60px;
+  padding-right: 250px;
+}
+
+.differents_filtres i
+{
+  color: #0065FC;
+  margin: 5px;
+}
+
+a .filtre:hover
+{
+  background-color: #DEEBFF;
+}
+
+.filtre 
+{
+  padding: 15px;
+  border: #d9d9d9 solid 3px;
+  border-radius: 30px 30px 30px 30px;
+}
