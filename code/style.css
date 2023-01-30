@@ -4,12 +4,6 @@
    font-family: 'Raleway', sans-serif;
    margin: 0 auto;
    max-width: 1400px;
-   borer: #000000 solid 3px;
- }
-
- /*#lorem
- {
-  margin-top: 50px;
  }
 
 
@@ -99,7 +93,6 @@ section
   border-radius: 0px 0px 0px 0px;
   font-size: large;
   font-family: Raleway, sans-serif;
-  
 }
 
 button
@@ -113,11 +106,12 @@ button
   font-family: Raleway, sans-serif;
   font-size: large;
   font-weight: bold ;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 a button:hover
 {
-  background-color: #000000;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 
@@ -175,6 +169,14 @@ main
   border-radius: 20px;
 }
 
+.premiere_ligne
+{
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: space-between;
+}
+
 h3
 {
   margin-bottom: 30px;
@@ -191,6 +193,11 @@ h3
   border-radius: 20px 20px 20px 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+}
+
+#card:hover
+{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 #photo
@@ -224,17 +231,31 @@ h3
   color: #0065FC;
 }
 
-.auberge_la_canebiere:hover
-{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.premiere_ligne
+.deuxieme_ligne
 {
   display: flex;
   margin-left: 40px;
   margin-right: 40px;
   justify-content: space-between;
+  margin-top: 30px;
+}
+
+#A_f
+{
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+/*Les plus populaires*/
+
+.les_plus_populaires
+{
+  background-color: #d9d9d9;
+  height: 625px;
+  width: 420px;
+  border-radius: 20px;
+  margin-left: 40px;
 }
 
 .titres_lpp
@@ -246,16 +267,14 @@ h3
 #chart_line
 {
   color: #0065FC;
+  margin-left: 130px;
 }
 
-.les_plus_populaires
+.colonne 
 {
-  background-color: #d9d9d9;
-  height: 625px;
-  width: 420px;
-  border-radius: 20px;
-  margin-left: 40px;
-  paddin: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #card_colonne
@@ -266,7 +285,11 @@ h3
   border-radius: 20px 20px 20px 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  margin-left: 35px;
+}
+
+#card_colonne:hover
+{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 #photo_colonne
@@ -282,6 +305,12 @@ h3
 .photo_colonne
 {
   display: flex;
+}
+
+.info_colonne
+{
+  margin-left: 10px;
+  margin-top: 15px;
 }
 
 .description_colonne
@@ -302,8 +331,3 @@ h3
   color: #0065FC;
 }
 
-.info_colonne
-{
-  margin-left: 10px;
-  margin-top: 15px;
-}
