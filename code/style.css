@@ -15,7 +15,7 @@
   justify-content: space-between;
  }
 
-nav ul li
+ li 
  {
   list-style-type: none;
   padding: 55px;
@@ -363,6 +363,11 @@ h4
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
+#card_activités:hover
+{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 #photo_activités
 {
   height: 400px;
@@ -399,17 +404,33 @@ h5
 .footer
 {
   margin-left: 65px;
+}
+
+footer
+{
+  background-color: #f2f2f2;
+  margin-bottom: 0;
+  margin: 35px;
+  margin-top: 75px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+h5
+{
+  font-weight: bold;
+  font-size: 115%;
+}
+
+.footer
+{
+  margin-left: 65px;
   display: flex;
 }
 
 #booki_footer #footer_booki li
 {
-  list-style-type: none;
-  height: 40px;
-}
-
-#footer_booki
-{
-  padding-left: 0;
+  padding-left: 0px;
+  
 }
 
