@@ -21,7 +21,7 @@
   padding: 55px;
  }
 
- ul 
+ ul
  {
   display: flex;
   margin: 0 auto;
@@ -331,3 +331,57 @@ h3
   color: #0065FC;
 }
 
+
+/*Activtés à Marseille*/
+
+article
+{
+  margin: 35px;
+}
+
+h4
+{
+  font-weight: bold;
+  font-size: 140%;
+  margin-top: 70px;
+}
+
+#activites
+{
+  margin-left: -5px;
+  margin-right: -5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#card_activités
+{
+  background-color: #ffffff;
+  border-radius: 20px 20px 20px 20px;
+  height: 450px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#photo_activités
+{
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.info_activites
+{
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* Footer*/
+
+#a_propos
+{
+  padding-left: 0px;
+  
+}
