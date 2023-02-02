@@ -77,8 +77,8 @@ section
   border: #f2f2f2 1px solid;
   border-radius: 15px 0px 0px 15px;
   background-color: #f2f2f2;
-  height: 64px;
-  width: 65px;
+  height: 63px;
+  width: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,13 +117,22 @@ a button:hover
 
 /* Filtres */
 
+.tt_les_filtres
+{
+  margin-top: 85px;
+}
+h2
+{
+  margin-right: 10px;
+}
+
 .differents_filtres
 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: -60px;
-  padding-right: 250px;
   padding-bottom: 25px;
+  max-width: 940px;
 }
 
 .differents_filtres i
@@ -424,4 +433,32 @@ h5
 .nos_hebergements
 {
   margin-right: 115px;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1350px)
+{
+  main
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heb_a_marseille
+  {
+    width: 100%;
+  }
+
+  .premiere_ligne, .deuxieme_ligne
+  {
+    justify-content: space-around;
+  }
+
+  .les_plus_populaires
+  {
+    width: 100%;
+    vertical-align: baseline;
+  }
 }
