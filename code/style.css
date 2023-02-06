@@ -30,6 +30,7 @@
  .logo_booki 
  {
   margin: 35px;
+  display: flex;
 }
 
 a 
@@ -43,6 +44,11 @@ nav ul a li:hover
   color: #0065FC;
   border-top: #0065FC solid 3px;
   padding-bottom: 3px;
+}
+
+.act
+{
+  display: flex;
 }
 
 
@@ -79,6 +85,7 @@ section
   background-color: #f2f2f2;
   height: 63px;
   width: 64px;
+  max-width: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -437,9 +444,67 @@ h5
 
 
 /*MEDIA QUERIES*/
+
+@media all and (max-width: 768px)
+{
+  body 
+  {
+    justify-content: center;
+    margin: 0px;
+    padding: 0;
+  }
+  .header 
+  {
+    display: block;
+  }
+
+  .logo_booki
+  {
+    justify-content: center;
+  }
+  
+  #heb_act
+  {
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul a li:hover
+  {
+    border-top: none;
+    padding-bottom: 55px;
+    border-bottom: #0065FC solid 3px;
+  }
+
+  nav
+  {
+    border-bottom: #d9d9d9 solid 3px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Adapation d'écran jusqu'à 992px*/
 
-@media screen and (max-width: 1350px)
+/*@media screen and (max-width: 1350px)
 {
   main
   {
@@ -494,4 +559,4 @@ h5
   {
   
   }
-}
+}/*
