@@ -85,10 +85,15 @@ section
   background-color: #f2f2f2;
   height: 63px;
   width: 64px;
-  max-width: 64px;
+  min-width: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#loupe
+{
+  display: none;
 }
 
 #recherche
@@ -124,22 +129,13 @@ a button:hover
 
 /* Filtres */
 
-.tt_les_filtres
-{
-  margin-top: 85px;
-}
-h2
-{
-  margin-right: 10px;
-}
-
 .differents_filtres
 {
-  display: flex;
   justify-content: space-between;
   margin-top: -60px;
   padding-bottom: 25px;
   max-width: 940px;
+  margin-left: 90px;
 }
 
 .differents_filtres i
@@ -148,7 +144,7 @@ h2
   margin: 5px;
 }
 
-a .filtre:hover
+.filtre:hover
 {
   background-color: #DEEBFF;
 }
@@ -158,6 +154,13 @@ a .filtre:hover
   padding: 15px;
   border: #d9d9d9 solid 3px;
   border-radius: 30px 30px 30px 30px;
+  
+}
+
+.grid
+{
+  display: flex;
+  justify-content: space-between;
 }
 
 #info
@@ -283,7 +286,7 @@ h3
 #chart_line
 {
   color: #0065FC;
-  margin-left: 130px;
+  margin-left: 130px; /*changer*/
 }
 
 .colonne 
@@ -452,6 +455,8 @@ h5
     justify-content: center;
     margin: 0px;
     padding: 0;
+    mx-width: 768px;
+    overflow-x: hidden;
   }
   .header 
   {
@@ -482,6 +487,52 @@ h5
     border-bottom: #d9d9d9 solid 3px;
   }
 
+  .button_recherche
+  {
+    display: none;
+  }
+
+  #loupe
+  {
+    display: initial;
+    border: #f2f2f2 1px solid;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0065FC;
+    color: #ffffff;
+    height: 63px;
+    width: 64px;
+    min-width: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 
+  {
+    width: min-content;
+  }
+
+  .differents_filtres
+  {
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .grid
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+
+  .filtre
+  {
+    width: 140px;
+    font-size: 80%;
+  }
+  
 }
 
 
@@ -559,4 +610,4 @@ h5
   {
   
   }
-}/*
+}
