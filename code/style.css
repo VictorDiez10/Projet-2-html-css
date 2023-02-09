@@ -448,6 +448,92 @@ h5
 
 
 /*MEDIA QUERIES*/
+/*Adapation jusqu'à 992px*/
+
+@media all and (max-width: 1350px)
+{
+  #card
+  {
+    margin-right: 10px;
+  }
+
+  #photo
+  {
+    
+    
+  }
+
+  .premiere_ligne, .deuxieme_ligne
+  {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+}
+
+@media all and (max-width: 1270px)
+{
+  #card_colonne
+  {
+    width: 85%;
+  }
+
+  .les_plus_populaires
+  {
+    width: 110%;
+  }
+
+  .les_plus_populaires
+  {
+    argin-left: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Téléphone (768px)*/
 
 @media all and (max-width: 768px)
@@ -631,82 +717,5 @@ h5
   .footer
   {
     flex-direction: column;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Adapation d'écran jusqu'à 992px*/
-
-/*@media screen and (max-width: 1350px)
-{
-  main
-  {
-    flex-direction: column;
-  }
-
-  .heb_a_marseille
-  {
-    width: 100%;
-  }
-
-  .premiere_ligne, .deuxieme_ligne
-  {
-    justify-content: space-around;
-  }
-
-  .les_plus_populaires
-  {
-    display: flex;
-    margin-top: 65px;
-    width: 100%;
-  }
-
-  .colonne
-  {
-    display: flex;
-    flex-direction: row;
-    margin-tp: 200px;
-    margin-left: -300px;
-    margin-bottom: ;
-    border: #000000 solid 3px;
-  }
-
-  #card_colonne
-  {
-    margin-right: 25px;
-  }
-
-  .titres_lpp
-  {
-    border: #000000 solid 3px;
-    margin-bottom: 450px;
-  }
-  
-  #chart_line
-  {
-    position: relative;
-    left: 780px;
-  }
-
-  .titres_lpp h3 
-  {
-  
   }
 }
