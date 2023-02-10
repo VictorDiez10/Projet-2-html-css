@@ -457,18 +457,27 @@ h5
     margin-right: 10px;
   }
 
-  #photo
-  {
-    
-    
-  }
-
   .premiere_ligne, .deuxieme_ligne
   {
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 0px;
   }
 
+}
+
+@media all and (max-width: 1300px)
+{
+  #card_activités
+  {
+    height: 400px;
+    width: 250px;
+  }
+
+  #photo_activités
+  {
+    height: 350px;
+    width: 250px;
+  }
 }
 
 @media all and (max-width: 1270px)
@@ -483,9 +492,79 @@ h5
     width: 110%;
   }
 
-  .les_plus_populaires
+}
+
+@media all and (max-width: 1174px)
+{
+  #etoile2
   {
-    argin-left: 50px;
+    margin-top: 25px;
+  }
+}
+
+@media all and (max-width: 1158px)
+{
+  #etoile1
+  {
+    margin-top: 30px;
+  }
+}
+
+@media all and (max-width: 1150px)
+{
+  #etoile2
+  {
+    margin-top: 13px;
+  }
+}
+
+@media all and (max-width: 1145px)
+{
+  #card
+  {
+    width: 200px;
+    height: 185px;
+  }
+
+  #photo
+  {
+    width: 190px;
+  }
+
+  .notes
+  {
+    margin-top: 0px;
+  }
+}
+
+@media all and (max-width:1080px)
+{
+  #card_activités
+  {
+    height: 350px;
+    width: 225px;
+  }
+
+  #photo_activités
+  {
+    height: 300px;
+    width: 225px;
+  }
+}
+
+@media all and (max-width: 1045px)
+{
+  #photo_colonne
+  {
+    width: 100px;
+  }
+}
+
+@media all and (max-width:998px)
+{
+  .assistance
+  {
+    margin-right: 10px;
   }
 }
 
