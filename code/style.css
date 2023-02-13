@@ -450,7 +450,9 @@ h5
 /*MEDIA QUERIES*/
 /*Adapation jusqu'à 992px*/
 
-@media all and (max-width: 1350px)
+@media all and (max-width:1400px) and (min-width:992px)
+{
+  @media all and (max-width: 1350px)
 {
   #card
   {
@@ -567,6 +569,207 @@ h5
     margin-right: 10px;
   }
 }
+}
+
+
+
+/*TABLETTE*/
+@media all and (max-width: 992px) and (min-width: 768px)
+{
+  main 
+  {
+    flex-direction: column;
+  }
+
+  .les_plus_populaires
+  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 880px;
+    height: 310px;
+  }
+
+  .titres_lpp
+  {
+    min-width: 880px;
+  }
+
+  #card_colonne
+  {
+    width: 270px;
+    margin-right: 10px;
+  }
+
+  .hotel_le_soleil_du_matin
+  {
+    margin-left: 35px;
+  }
+
+  #photo_colonne
+  {
+    width: 114px;
+  }
+
+  .colonne
+  {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+  }
+
+  aside 
+  {
+    margin-top: 40px;
+  }
+
+  #card_activités
+  {
+    height: 350px;
+    width: 225px;
+  }
+
+  #photo_activités
+  {
+    height: 300px;
+    width: 225px;
+  }
+
+  .a_propos
+{
+  margin-right: 50px;
+}
+
+.nos_hebergements
+{
+  margin-right: 50px;
+}
+
+  @media all and (max-width:970px)
+  {
+    #card_activités
+  {
+    height: 300px;
+    width: 205px;
+  }
+
+  #photo_activités
+  {
+    height: 250px;
+    width: 205px;
+  }
+  }
+
+  @media all and (max-width:900px)
+  {
+    #card_activités
+  {
+    height: 250px;
+    width: 185px;
+  }
+
+  #photo_activités
+  {
+    height: 200px;
+    width: 185px;
+  }
+
+  .premiere_ligne, .deuxieme_ligne
+  {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .titres_lpp
+  {
+    min-width: 780px;
+  }
+
+  #card_colonne
+  {
+    width: 230px;
+    height: 150px;
+  }
+
+  .description_colonne
+  {
+    font-size: small;
+  }
+
+  #etoile2
+  {
+    margin-top: 30px;
+  }
+
+  #photo_colonne
+  {
+    height: 140px;
+    width: 105px;
+  }
+  }
+
+  @media all and (max-width:835px)
+  {
+  .premiere_ligne, .deuxieme_ligne
+  {
+    margin-left: 10px;
+    margin-right: 100px;
+  }
+
+  #card
+  {
+    margin-right: 20px;
+  }
+
+  }
+  @media all and (max-width:815px)
+  {
+    #card_activités
+  {
+    height: 200px;
+    width: 150px;
+  }
+
+  #photo_activités
+  {
+    height: 150px;
+    width: 150px;
+  }
+
+  #card
+  {
+    width: 200px;
+    height: 185px;
+    margin-right: 50px;
+  }
+
+  #photo
+  {
+    width: 190px;
+  }
+
+  .notes
+  {
+    margin-top: 0px;
+  }
+
+  .premiere_ligne, .deuxieme_ligne
+  {
+    margin-right: 100px;
+    margin-left: 30px;
+  }
+  }
+
+  @media all and (max-width:797px)
+  {
+    .filtre
+    {
+      padding: 10px;
+    }
+  }
+  
+
+}
+
 
 
 
@@ -656,7 +859,7 @@ h5
     border-bottom: #d9d9d9 solid 3px;
   }
 
-  /*Fonction recherceh*/
+  /*Fonction recherche*/
 
   .button_recherche
   {
