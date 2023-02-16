@@ -10,7 +10,7 @@
    <!--Logo de Font Awesome-->
    <script src="https://kit.fontawesome.com/2166866593.js" crossorigin="anonymous"></script>
    <!--View Port-->
-   <meta name="viewport" content="width=device-width, initial-scales=1, user-scalable=0"
+   <meta name="viewport" content="width=device-width, initial-scales=1, user-scalable=0">
 </head>
 <body>
 
@@ -21,10 +21,10 @@
          <img src="../assets/logo/Booki.png" alt="Logo Booki" id="logo_booki">
       </div>
       <nav>
-         <ul id="heb_act">
-            <a class="heb" href="#Hebergements"><li>Hébergements</li></a>
-            <a class="act" href="#Activités"><li>Activités</li></a>
-         </ul>
+         <div class="heb_act">
+            <a class="heb" href="#Hebergements">Hébergements</a>
+            <a class="act" href="#Activités">Activités</a>
+         </div>
       </nav>
    </div>
   </header>
@@ -42,7 +42,7 @@
          <i class="fa-solid fa-location-dot"></i>
       </div>
       <div class="recherche">
-         <form method="get" action="">
+         <form method="get" action="#">
             <p>
                <input type="text" name="recherche" id="recherche" placeholder="      Marseille, France">
             </p>
@@ -50,7 +50,7 @@
       </div>
       
       <div class="bouton_recherche">
-         <a href="#"><button class="button_recherche">Rechercher</button></a>
+         <button class="button_recherche">Rechercher</button>
          <i class="fa-solid fa-magnifying-glass" id="loupe"></i>
       </div>
    </div>
@@ -64,25 +64,25 @@
       <div class="grid">
          <div id="economique" class="filtre">
             <a href="#">            
-               <i class="fa-solid fa-money-bill-wave" id="icons"></i>
+               <i class="fa-solid fa-money-bill-wave"></i>
                Économique 
             </a>           
          </div>
          <div id="familial" class="filtre">
             <a href="#">            
-               <i class="fa-solid fa-person" id="icons"></i>
+               <i class="fa-solid fa-person"></i>
                Familial
             </a>            
          </div>
          <div id="romantique" class="filtre">
             <a href="#">
-               <i class="fa-solid fa-heart" id="icons"></i>
+               <i class="fa-solid fa-heart"></i>
                Romantique
             </a>
          </div>
          <div id="animaux_autorises" class="filtre">
             <a href="#">           
-               <i class="fa-solid fa-dog" id="icons"></i>
+               <i class="fa-solid fa-dog"></i>
                Animaux autorisés
             </a>
          </div>
@@ -98,10 +98,10 @@
    <div class="heb_a_marseille" id="Hebergements">
       <h3>Hébergements à Marseille</h3>
       <div class="premiere_ligne">
-         <div class="auberge_la_canebiere" id="card">
+         <div id="auberge_la_canebiere" class="card">
             <a href="#">
                <div class="photo">
-                  <img src="../assets/hebergements/4_small/auberge_la_canebiere.jpg" alt="auberge_la_canebiere" id="photo">
+                  <img src="../assets/hebergements/4_small/auberge_la_canebiere.jpg" alt="auberge_la_canebiere" class="photos">
                   <div class="description">
                      Auberge La Canebière
                   </div>
@@ -118,10 +118,10 @@
                </div>
             </a>
          </div>
-         <div class="hotel_du_port" id="card">
+         <div id="hotel_du_port" class="card">
             <a href="#">
                <div class="photo">
-                  <img src="../assets/hebergements/4_small/hotel_du_port.jpg" alt="hotel_du_port" id="photo">
+                  <img src="../assets/hebergements/4_small/hotel_du_port.jpg" alt="hotel_du_port" class="photos">
                   <div class="description">
                      Hôtel du Port
                   </div>
@@ -138,10 +138,10 @@
                </div>
             </a>
          </div>
-         <div class="hotel_les_mouettes" id="card">
+         <div id="hotel_les_mouettes" class="card">
             <a href="#">
                <div class="photo">
-                  <img src="../assets/hebergements/4_small/hotel_la_mouette.jpg" alt="hotel_les_mouettes" id="photo">
+                  <img src="../assets/hebergements/4_small/hotel_la_mouette.jpg" alt="hotel_les_mouettes" class="photos">
                   <div class="description">
                      Hôtel Les mouettes
                   </div>
@@ -160,10 +160,10 @@
          </div>
       </div>
       <div class="deuxieme_ligne">
-         <div class="hotel_de_la_mer" id="card">
+         <div id="hotel_de_la_mer" class="card">
             <a href="#">
                <div class="photo">
-                  <img src="../assets/hebergements/4_small/hotel_de_la_mer.jpg" alt="hotel_de_la_mer" id="photo">
+                  <img src="../assets/hebergements/4_small/hotel_de_la_mer.jpg" alt="hotel_de_la_mer" class="photos">
                   <div class="description">
                      Hôtel de la mer
                   </div>
@@ -180,10 +180,10 @@
                </div>
             </a>
          </div>
-         <div class="auberge_le_panier" id="card">
+         <div id="auberge_le_panier" class="card">
             <a href="#">
                <div class="photo">
-                  <img src="../assets/hebergements/4_small/auberge_le_panier.jpg" alt="auberge_le_panier" id="photo">
+                  <img src="../assets/hebergements/4_small/auberge_le_panier.jpg" alt="auberge_le_panier" class="photos">
                   <div class="description">
                      Auberge Le Panier
                   </div>
@@ -200,10 +200,10 @@
                </div>
             </a>
          </div>
-         <div class="hotel_chez_amina" id="card">
+         <div id="hotel_chez_amina" class="card">
             <a href="#">
                <div class="photo">
-                  <img src="../assets/hebergements/4_small/hotel_chez_amina.jpg" alt="hotel_chez_amina" id="photo">
+                  <img src="../assets/hebergements/4_small/hotel_chez_amina.jpg" alt="hotel_chez_amina" class="photos">
                   <div class="description">
                      Hôtel Chez Amina
                   </div>
@@ -231,10 +231,10 @@
             <i class="fa-solid fa-chart-line" id="chart_line"></i>
          </div>
          <div class="colonne">
-               <div class="hotel_le_soleil_du_matin" id="card_colonne">
+               <div id="hotel_le_soleil_du_matin" class="card_colonne">
                   <a href="#">
                      <div class="photo_colonne">
-                        <img src="../assets/hebergements/4_small/hotel_le_soleil_du_matin.jpg" alt="hotel_le_soleil_du_matin" id="photo_colonne">
+                        <img src="../assets/hebergements/4_small/hotel_le_soleil_du_matin.jpg" alt="hotel_le_soleil_du_matin" class="photos_colonne">
                         <div class="info_colonne">
                            <div class="description_colonne">
                               Hôtel Le soleil du matin
@@ -253,10 +253,10 @@
                      </div>
                   </a>
                </div>
-               <div class="chambres_dhotes_au_coeur_de_leau" id="card_colonne">
+               <div id="chambres_dhotes_au_coeur_de_leau" class="card_colonne">
                   <a href="#">
                      <div class="photo_colonne">
-                        <img src="../assets/hebergements/4_small/chambres_dhotes_au_coeur_de-leau.jpg" alt="chambres_dhotes_au_coeur_de_leau" id="photo_colonne">
+                        <img src="../assets/hebergements/4_small/chambres_dhotes_au_coeur_de-leau.jpg" alt="chambres_dhotes_au_coeur_de_leau" class="photos_colonne">
                         <div class="info_colonne">
                            <div class="description_colonne">
                               Chambres d'hôtes Au coeur de l'eau
@@ -275,10 +275,10 @@
                      </div>
                   </a>
                </div>
-               <div class="hotel_bleu_et_blanc" id="card_colonne">
+               <div id="hotel_bleu_et_blanc" class="card_colonne">
                   <a href="#">
                      <div class="photo_colonne">
-                        <img src="../assets/hebergements/4_small/hotel_bleu_et_blanc.jpg" alt="hotel_bleu_et_blanc" id="photo_colonne">
+                        <img src="../assets/hebergements/4_small/hotel_bleu_et_blanc.jpg" alt="hotel_bleu_et_blanc" class="photos_colonne">
                         <div class="info_colonne">
                            <div class="description_colonne">
                               Hôtel Bleu et Blanc
@@ -308,33 +308,33 @@
 <article>
    <h4>Activités à Marseille</h4>
    <section id="Activités">
-      <div class="vieux-port" id="card_activités">
+      <div id="vieux-port" class="card_activités">
          <a href="">
-            <img src="../assets/activites/1_xlarge/vieux-port.jpg" alt="Vieux Port" id="photo_activités">
+            <img src="../assets/activites/1_xlarge/vieux-port.jpg" alt="Vieux Port" class="photo_activités">
             <div class="info_activites">
                Vieux-Port
             </div>
          </a>
       </div>
-      <div class="fort_de_pomègues" id="card_activités">
+      <div id="fort_de_pomègues" class="card_activités">
          <a href="">
-            <img src="../assets/activites/1_xlarge/fort_de_pomègues.jpg" alt="fort_de_pomègues" id="photo_activités">
+            <img src="../assets/activites/1_xlarge/fort_de_pomègues.jpg" alt="fort_de_pomègues" class="photo_activités">
             <div class="info_activites">
                Fort de pomègues
             </div>
          </a>
       </div>
-      <div class="parc_national_des_calanques" id="card_activités">
+      <div id="parc_national_des_calanques" class="card_activités">
          <a href="">
-            <img src="../assets/activites/1_xlarge/parc_national_des_calanques.jpg" alt="parc_national_des_calanques" id="photo_activités">
+            <img src="../assets/activites/1_xlarge/parc_national_des_calanques.jpg" alt="parc_national_des_calanques" class="photo_activités">
             <div class="info_activites">
                Parc national des Calanques
             </div>
          </a>
       </div>
-      <div class="notre-dame-de-la-garde" id="card_activités">
+      <div id="notre-dame-de-la-garde" class="card_activités">
          <a href="">
-            <img src="../assets/activites/1_xlarge/notre-dame-de-la-garde.jpg" alt="notre-dame-de-la-garde" id="photo_activités">
+            <img src="../assets/activites/1_xlarge/notre-dame-de-la-garde.jpg" alt="notre-dame-de-la-garde" class="photo_activités">
             <div class="info_activites">
                Notre-dame-de-la-garde
             </div>
@@ -346,24 +346,24 @@
 <!--Footer-->
 <footer>
    <div class="footer">
-      <div class="a_propos" id="booki_footer">
+      <div id="A_propos" class="booki_footer">
          <h5>À propos</h5>
-            <ul class="a_propos" id="footer_booki">
+            <ul id="a_propos" class="footer_booki">
                <li><a href="">Fonctionnement du site</a></li>
                <li><a href="">Conditions générales</a></li>
                <li><a href="">Données et confidentialités</a></li>
             </ul>
       </div>
-      <div class="nos_hebergements" id="booki_footer">
+      <div id="Nos_hebergements" class="booki_footer">
          <h5>Nos hébgergements</h5>
-            <ul class="nos_hebergements" id="footer_booki">
+            <ul id="nos_hebergements" class="footer_booki">
                <li><a href="">Charte qualité</a></li>
                <li><a href="">Proposer votre hôtel</a></li>
             </ul>
       </div>
-      <div class="assistance" id="booki_footer">
+      <div id="Assistance" class="booki_footer">
          <h5>Assistance</h5>
-            <ul class="assistance" id="footer_booki">
+            <ul id="assistance" class="footer_booki">
                <li><a href="">Centre d'aide</a></li>
                <li><a href="">Nous contacter</a></li>
             </ul>
