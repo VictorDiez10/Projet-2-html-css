@@ -181,6 +181,7 @@ main
   width: 880px; 
   border-radius: 20px;
   margin-right: 40px;
+  margin-left: 35px;
 }
 
 .premiere_ligne
@@ -269,6 +270,7 @@ h3
   height: 625px;
   width: 420px;
   border-radius: 20px;
+  margin-right: 20px;
 }
 
 .titres_lpp
@@ -590,8 +592,20 @@ h5
   {
     display: flex;
     flex-wrap: wrap;
-    width: 880px;
+    width: 10%;
     height: 310px;
+    margin-left: 10px;
+  }
+
+  .heb_a_marseille
+  {
+    margin-left: 10px;
+    width: 104%;
+  }
+
+  .photos
+  {
+    width: 70%;
   }
 
   .titres_lpp
