@@ -458,20 +458,10 @@ h5
 
 @media all and (max-width:1400px) and (min-width:992px)
 {
-  @media all and (max-width: 1350px)
-{
-  .card
+  .les_plus_populaires
   {
-    margin-right: 10px;
+    min-width: 10px;
   }
-
-  .premiere_ligne, .deuxieme_ligne
-  {
-    margin-left: 10px;
-    margin-right: 0px;
-  }
-
-}
 
 @media all and (max-width: 1300px)
 {
@@ -486,6 +476,16 @@ h5
     height: 350px;
     width: 250px;
   }
+
+  .card
+  {
+    margin-right: 10px;
+  }
+
+  .premiere_ligne, .deuxieme_ligne
+  {
+    margin-right: 0px;
+  }
 }
 
 @media all and (max-width: 1270px)
@@ -497,8 +497,11 @@ h5
 
   .les_plus_populaires
   {
-    width: 110%;
+    width: 95%;
+    
   }
+
+
 
 }
 
@@ -545,7 +548,7 @@ h5
   }
 }
 
-@media all and (max-width:1080px)
+@media all and (max-width:1083px)
 {
   .card_activités
   {
@@ -558,13 +561,24 @@ h5
     height: 300px;
     width: 225px;
   }
-}
 
-@media all and (max-width: 1045px)
-{
   .photos_colonne
   {
-    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+  }
+}
+
+@media all and (max-width: 1034px)
+{
+  .card
+  {
+    width: 30%;
+  }
+
+  .photos
+  {
+    width: 95%;
   }
 }
 
@@ -580,7 +594,7 @@ h5
 
 
 /*TABLETTE*/
-@media all and (max-width: 992px) and (min-width: 768px)
+@media all and (max-width: 992px) and (min-width: 769px)
 {
   main 
   {
