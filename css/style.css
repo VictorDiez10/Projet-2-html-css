@@ -67,6 +67,11 @@ section
   margin: 35px;
 }
 
+.fonction_de_recherche
+{
+  margin: 35px;
+}
+
 .barre_de_recherche
 {
   display: flex;
@@ -363,7 +368,7 @@ h4
   margin-top: 70px;
 }
 
-#Activités
+#Activitées
 {
   margin-left: -5px;
   margin-right: -5px;
@@ -462,6 +467,14 @@ h5
   {
     min-width: 10px;
   }
+@media all and (max-width:1210px)
+{
+  .photos_colonne
+  {
+    max-width: 100px;
+    min-width: 100px;
+  }
+}
 
 @media all and (max-width: 1300px)
 {
@@ -498,34 +511,14 @@ h5
   .les_plus_populaires
   {
     width: 95%;
-    
   }
-
-
-
 }
 
-@media all and (max-width: 1174px)
+@media all and (max-width: 1147px)
 {
   #etoile2
   {
     margin-top: 25px;
-  }
-}
-
-@media all and (max-width: 1158px)
-{
-  #etoile1
-  {
-    margin-top: 30px;
-  }
-}
-
-@media all and (max-width: 1150px)
-{
-  #etoile2
-  {
-    margin-top: 13px;
   }
 }
 
@@ -562,14 +555,14 @@ h5
     width: 225px;
   }
 
-  .photos_colonne
+  photos_colonne
   {
     min-width: 100px;
     max-width: 100px;
   }
 }
 
-@media all and (max-width: 1034px)
+@media all and (max-width: 1039px)
 {
   .card
   {
@@ -579,6 +572,22 @@ h5
   .photos
   {
     width: 95%;
+  }
+}
+
+@media all and (max-width: 1032px)
+{
+  .description 
+  {
+    font-size: small;
+  }
+}
+
+@media all and (max-width: 1005px)
+{
+  #etoile1
+  {
+    margin-top: 30px;
   }
 }
 
@@ -705,6 +714,14 @@ h5
     height: 250px;
     width: 205px;
   }
+  }
+
+  @media all and (max-width: 934px)
+  {
+    #etoile2
+    {
+      margin-top: 30px;
+    }
   }
 
   @media all and (max-width:900px)
@@ -870,7 +887,7 @@ h5
 
   .filtre
   {
-    width: 140px;
+    width: 90%;
     font-size: 80%;
     font-weight: bold;
   }
@@ -938,7 +955,7 @@ h5
 
   /* ACTIVITES*/
 
-  #Activités
+  #Activitées
   {
     flex-direction: column;
   }
