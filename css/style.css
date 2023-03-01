@@ -554,12 +554,6 @@ h5
     height: 300px;
     width: 225px;
   }
-
-  photos_colonne
-  {
-    min-width: 100px;
-    max-width: 100px;
-  }
 }
 
 @media all and (max-width: 1039px)
